@@ -3,7 +3,16 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif, Helvetica;
+  background: linear-gradient(to bottom, #e6e6e6, #ffffff); 
+} 
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px;
+  background-color: white;
 }
 
 /* Navigation Menu */
@@ -13,6 +22,7 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
+  background-color: #444;
 }
 
 nav li {
@@ -42,7 +52,9 @@ main {
 section {
   background-color: white;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px auto;
+  max-width: 900px;
+  border: 1px solid #ddd;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -68,3 +80,11 @@ tfoot td {
   font-style: italic;
   border-top: 2px solid #ccc;
 }
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 15px;
+  background-color: #222;
+  color: #eee;
+    
